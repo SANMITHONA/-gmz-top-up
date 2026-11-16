@@ -2,12 +2,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GMZ TOP UP</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GMZ TOP UP</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#090d1c;
+  color:white;
+}
+header{
+  padding:22px;
+  background:#121a32;
+  text-align:center;
+  border-bottom:2px solid #00d9ff;
+}
+header h1{color:#00d9ff;margin:0}
+.container{padding:22px;max-width:600px;margin:auto}
+h2{color:#00d9ff}
+.card{
+  background:#151f3b;
+  padding:20px;
+  border-radius:14px;
+  margin:15px 0;
+}
+button{
+  width:100%;
+  padding:14px;
+  border:0;
+  border-radius:9px;
+  background:#00d9ff;
+  color:#071020;
+  font-weight:bold;
+  font-size:16px;
+}
+.game{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  margin:12px 0;
+}
+.game span{font-size:18px}
+footer{text-align:center;color:#9ba9c5;padding:25px}
+</style>
 </head>
 <body>
-  <h1>Welcome to GMZ TOP UP</h1>
-  <p>Fast and Easy Top Up</p>
+<header>
+  <h1>💎 GMZ TOP UP</h1>
+  <p>Fast • Safe • Easy</p>
+</header>
+<div class="container">
+  <h2>Welcome to GMZ TOP UP</h2>
+  <p>Choose your favorite game</p>
+  <div class="card">
+    <div class="game"><span>🎮</span> Free Fire</div>
+    <div class="game"><span>🎮</span> PUBG Mobile</div>
+    <div class="game"><span>🎮</span> Mobile Legends</div>
+    <div class="game"><span>🎮</span> Roblox</div>
+  </div>
+  <div class="card">
+    <h2>How to Order</h2>
+    <p>Contact us to place your top up order.</p>
+    <button onclick="alert('Please contact GMZ TOP UP to order.')">
+      Contact Us
+    </button>
+  </div>
+</div>
+<footer>© 2026 GMZ TOP UP</footer>
 </body>
 </html>
